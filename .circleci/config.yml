@@ -13,7 +13,7 @@ jobs:
            - image: cimg/ruby:3.0.2
            
         steps:
-            - checkout
+            -checkout
             -run: echo "A more familiar hi"
             -run: sleep 15
 workflows:
